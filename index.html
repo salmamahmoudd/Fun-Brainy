@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./images/logo.jpeg" type="image/x-icon">
 <title>Fun Brainy | Learning Adventure 🚀</title>
 <link rel="stylesheet" href="./index.css">
 <link rel="stylesheet" href="./media.css">
@@ -10,10 +11,16 @@
 </head>
 <body>
 
+    <div class="bubbles-bg">
+  <span></span><span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+</div>
+
+
 <!-- NAVBAR -->
 <nav class="navbar">
   <div class="container nav-content">
-    <div class="logo"><div class="logo-img"><img src="./logo.jpeg" alt=""></div>🚀 Fun<span>Brainy</span></div>
+    <div class="logo"><div class="logo-img"><img src="./images/logo.jpeg" alt=""></div>🚀 Fun<span>Brainy</span></div>
 
     <ul class="nav-links">
       <li><a href="#subjects">Subjects</a></li>
@@ -44,7 +51,7 @@
         <button class="btn-primary pulse-btn">Start My Journey 🚀</button>
     </div>
     <div class="hero-image-box">
-        <img src="./hero.avif" alt="Kids Hero">
+        <img src="./images/hero.avif" alt="Kids Hero">
         <div class="floating-stars">
             <span style="top:10%; left:20%; font-size:2rem;">⭐</span>
             <span style="top:30%; left:80%; font-size:2.5rem;">✨</span>
@@ -56,6 +63,25 @@
 </div>
 </section>
 
+<section class="section-padding">
+  <div class="container progress-box">
+    <h2 class="section-title">🧠 Today’s Learning Progress</h2>
+
+    <div class="progress-wrapper">
+      <div class="progress-label">Math 🧮</div>
+      <div class="progress">
+        <div class="progress-fill" style="width:70%;">70%</div>
+      </div>
+
+      <div class="progress-label">Science 🧪</div>
+      <div class="progress">
+        <div class="progress-fill green" style="width:50%;">50%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- SUBJECTS -->
 <section id="subjects" class="section-padding">
 <div class="container">
@@ -64,25 +90,25 @@
     <div class="card math">
         <h3>➕ Math</h3>
         <p>Fun with Numbers!</p>
-        <img src="./math child.avif" alt="Math">
+        <img src="./images/math child.avif" alt="Math">
         <button class="btn-card">Play</button>
     </div>
     <div class="card science">
         <h3>🧪 Science</h3>
         <p>Explore Experiments!</p>
-        <img src="./Science child.avif" alt="Science">
+        <img src="./images/Science child.avif" alt="Science">
         <button class="btn-card">Play</button>
     </div>
     <div class="card english">
         <h3>📖 English</h3>
         <p>Stories & Reading</p>
-        <img src="./english child.avif" alt="English">
+        <img src="./images/english child.avif" alt="English">
         <button class="btn-card">Play</button>
     </div>
     <div class="card art">
         <h3>🎨 Art</h3>
         <p>Get Creative!</p>
-        <img src="./art.avif" alt="Art">
+        <img src="./images/art.avif" alt="Art">
         <button class="btn-card">Play</button>
     </div>
 </div>
@@ -95,7 +121,7 @@
 <h2 class="section-title text-white">🎮 Arcade Fun Zone</h2>
 <div class="games-grid">
     <div class="game-card">
-        <img src="./Puzzle Game.avif" alt="Puzzle Game">
+        <img src="./images/Puzzle Game.avif" alt="Puzzle Game">
         <div class="game-overlay">
             <h3>Puzzle Adventure</h3>
             <p>Logic games and fun!</p>
@@ -103,7 +129,7 @@
         </div>
     </div>
     <div class="game-card">
-        <img src="./Building Game.avif" alt="Building Game">
+        <img src="./images/Building Game.avif" alt="Building Game">
         <div class="game-overlay">
             <h3>Build & Learn</h3>
             <p>Create your city!</p>
@@ -118,7 +144,7 @@
 <section id="study" class="section-padding study-bg-green">
 <div class="container split-grid">
     <div class="split-image">
-        <img src="./Study Lab.avif" alt="Study Lab">
+        <img src="./images/Study Lab.avif" alt="Study Lab">
     </div>
     <div class="split-text">
         <h2>🧬 Discovery Lab</h2>
@@ -140,17 +166,17 @@
     <div class="card">
         <h3>⭐ Stars</h3>
         <p>Earn stars while learning!</p>
-        <img src="./Stars.avif" alt="Stars">
+        <img src="./images/Stars.avif" alt="Stars">
     </div>
     <div class="card">
         <h3>🎖 Badges</h3>
         <p>Collect badges for milestones!</p>
-        <img src="./Badges.avif" alt="Badges">
+        <img src="./images/Badges.avif" alt="Badges">
     </div>
     <div class="card">
         <h3>🚀 Levels</h3>
         <p>Level up your journey!</p>
-        <img src="./Levels.avif" alt="Levels">
+        <img src="./images/Levels.avif" alt="Levels">
     </div>
 </div>
 </div>
@@ -170,7 +196,7 @@
         <button class="btn-secondary">Parent Dashboard 👨‍👩‍👧</button>
     </div>
     <div class="split-image">
-        <img src="./Parent.avif" alt="Parents">
+        <img src="./images/Parent.avif" alt="Parents">
     </div>
 </div>
 </section>
@@ -183,26 +209,46 @@
     <div class="card">
         <h3>👶 Create Profile</h3>
         <p>Choose avatar and age</p>
-        <img src="./Profile.avif" alt="Profile">
+        <img src="./images/Profile.avif" alt="Profile">
     </div>
     <div class="card">
         <h3>🎮 Play & Learn</h3>
         <p>Educational games & videos</p>
-        <img src="./Play.avif" alt="Play">
+        <img src="./images/Play.avif" alt="Play">
     </div>
     <div class="card">
         <h3>🏆 Earn Rewards</h3>
         <p>Stars, badges & leaderboard</p>
-        <img src="./Rewards.avif" alt="Rewards">
+        <img src="./images/Rewards.avif" alt="Rewards">
     </div>
 </div>
 </div>
 </section>
 
+<section class="section-padding bg-dark-gaming">
+  <div class="container">
+    <h2 class="section-title text-white">🏆 Top Kids Leaderboard</h2>
+
+    <ul class="leaderboard">
+      <li>🥇 Ahmed <span>1200 ⭐</span></li>
+      <li>🥈 Sara <span>1100 ⭐</span></li>
+      <li>🥉 Omar <span>980 ⭐</span></li>
+      <li>🎉 You <span>850 ⭐</span></li>
+    </ul>
+  </div>
+</section>
+
+
 <!-- FOOTER -->
 <footer class="footer">
 <p>© 2026 Fun Brainy | Platform for Future Heroes 🚀</p>
 </footer>
+
+<div class="mascot">
+  🐻
+  <span class="mascot-msg">Let’s Learn! 🎉</span>
+</div>
+
 
 <script src="./index.js"></script>
 
